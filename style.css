@@ -1,7 +1,10 @@
 body {
-	margin-top:5%;
+	margin-top:3%;
 	background: url(https://www.highreshdwallpapers.com/wp-content/uploads/2015/01/Cloud-Castle.jpg) no-repeat;
 	background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 	font-weight:700;
 }
 .media{
@@ -17,30 +20,60 @@ body {
 }
 .media-body{
     margin-top: 5%;
-    margin-right: 1%;
+    
 }
 .sticky-top{
-    border-radius: 9px;
+    margin: 1%;
+	margin-right: 1%;
+	border-radius: 9px;
 	font-size: 120%;
-}
-.sticky{
-	position:fixed;
 	top:0;
 	width:100%;
 }
-.sticky + .content {
-  padding-top: 60px;
+.navbar-expand-lg .navbar-collapse{
+	justify-content: space-around;
 }
 .navbar-nav.a{
 	color:#000000;	
 }
-.navbar-nav a hover{
+.navbar-nav.a:hover{
 	color:#C0C0C0;	
+	font-size:160%;
 }
 .me{
 	max-height: 400px;
 	margin: 1%;
 	border-radius: 9px;
-	border: solid #C0C0C0 6px;
+	border: solid #d3d3d3 9px;
 	color: white;
+}
+.about{
+	margin: 1%;
+	padding:6px;
+	font-size:150%;
+	text-shadow: 1px 0px #FFFFFF;
+}
+.row{
+	margin: 1%;
+	padding:6px;
+	text-shadow: 1px 0px #FFFFFF;
+	text-align: center;
+}
+.col-md-4{
+	border: solid #d3d3d3 4px;
+	border-radius: 6px;
+}
+.foot{
+	margin: 1%;
+	padding:.1%;
+	padding-top: .8%;
+	margin-right: 1%;
+	border-radius: 9px;
+	font-size: 100%;
+	background-color: #f8f9fa;
+	text-align: center;
+}
+#fooot:hover{
+	color:#000000; 
+	
 }
