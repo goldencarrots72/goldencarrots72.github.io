@@ -46,7 +46,6 @@ section h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: 700;
-  font-family: 'Montserrat';
 }
 
 #mainNav .navbar-brand {
@@ -140,6 +139,7 @@ header.masthead h2 {
   }
 	.mb-0{
 		border-bottom: thick rgba(0,0,0,1.00);
+		
 	}
   header.masthead h2 {
     font-size: 1.75em;
@@ -162,7 +162,7 @@ header.masthead h2 {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(24, 188, 156, 0.9);
+  background-color: rgba(233,232,108,.90);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -275,7 +275,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2C3E50;
+  background-color: RGBA(75,75, 75, 75, .9);
   color: #fff;
 }
 
@@ -284,11 +284,11 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #18BC9C;
+  color: #E5E407;
 }
 
 a:focus, a:hover, a:active {
-  color: #128f76;
+  color: #E5E407s;
 }
 
 .btn {
@@ -304,26 +304,26 @@ a:focus, a:hover, a:active {
 }
 
 .text-primary {
-  color: #18BC9C !important;
+  color: #E5E407 !important;
 }
 
 .text-secondary {
-  color: #2C3E50 !important;
+  color: #E5E407 !important;
 }
 
 .btn-primary {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #E5E407;
+  border-color: #E5E407;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #128f76;
-  border-color: #128f76;
+  background-color: #E5E407;
+  border-color: #E5E407;
 }
 
 .btn-secondary {
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: #E5E407;
+  border-color: #E5E407;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
