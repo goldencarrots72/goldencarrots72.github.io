@@ -32,4 +32,22 @@
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+	overflow: hidden;
+}
+
+.logocolumn{
+	float: left;
+	width: 20%;
+}
+
+.desccolumn{
+	float: right;
+	width: 80%;
+	padding-left: 20px;
+}
+
+.resplist{
+	background-color: white;
+	padding: 30px;
+	padding-top: 0px;
 }
