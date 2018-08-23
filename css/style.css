@@ -1,28 +1,38 @@
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-	.column {
-    float: left;
-    width: 50%;
+.body{
+	background: black;
+	color: white;
+	font-family: Open Sans;
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.content{
+	background: transparent;
+	padding-left: 6%;
+	padding-right: 6%;
+	padding-top: 2%;
 }
-	ul {
+
+.navbar{
+	border-bottom-style:solid; 
+	border-bottom-color: #f1f1f1; 
+	border-bottom-width: 10px;
+}
+
+.GoodWords{
+	float: left;
+	color: white;
+	font-family: Trebuchet MS;
+	font-style:bold;
+	font-size: 55px;
+}
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
 }
 
 li a {
+	float: right;
     display: block;
     color: white;
     text-align: center;
@@ -30,10 +40,34 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
+li a:hover {
+    background: gray;
 }
 
-.active {
-    background-color: teal;
+.row {	
+	padding-top: 3%;
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.resume{
+	background:black;
+	border-style:solid;
+	border-color:white;
+	text-align:right;
+	border-radius: 9px;
+	padding-left: 12px;
+	padding-right: 12px;
+	font-size: 55px;
+	text-decoration: none;
+	color: white;
+}
+
+.resume:hover{
+	border-style:none;
+	background:gray;
+	color: white;
 }

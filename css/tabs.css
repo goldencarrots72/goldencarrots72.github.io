@@ -35,19 +35,40 @@
 	overflow: hidden;
 }
 
-.logocolumn{
-	float: left;
-	width: 20%;
+
+.GoodWords{
+	opacity: .7;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    font-family: garamond;
 }
 
-.desccolumn{
-	float: right;
-	width: 80%;
-	padding-left: 20px;
+
+.content{
+	margin-left: 3%;
+	margin-right: 3%;
+	background: black;
+	/*background: linear-gradient(to bottom, lightgray, #f1f1f1);*/
 }
 
-.resplist{
-	background-color: white;
-	padding: 30px;
-	padding-top: 0px;
+.button{
+	float:right;
+	bottom:0;
+	margin-right:7%; 
+	padding-left: 15px;
+	font-family: Open Sans;
+	background-color: gray;	
+	border-style: outset; 
+	box-shadow: 1px 4px 20px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+	border-color: gray;
+	color:white;
+	padding-right: 15px; 
+	text-decoration:none;
+	
+}
+
+.button:hover{
+	background-color: black;	
 }
