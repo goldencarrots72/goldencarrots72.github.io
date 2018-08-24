@@ -1,7 +1,8 @@
 .body{
-	background: black;
-	color: white;
-	font-family: Open Sans;
+	background: white;
+	color: black;
+	font-family: Raleway, regular italic;
+	line-height: 350%;
 }
 
 .content{
@@ -13,17 +14,27 @@
 
 .navbar{
 	border-bottom-style:solid; 
-	border-bottom-color: #f1f1f1; 
+	border-bottom-color: black; 
 	border-bottom-width: 10px;
+	padding-bottom: 1%;
 }
 
 .GoodWords{
-	float: left;
-	color: white;
-	font-family: Trebuchet MS;
-	font-style:bold;
+	float:left;
+	color: black;
+	font-family: Montserrat;
 	font-size: 55px;
+	font-weight: bold;
 }
+
+.GoodWord{
+	color: black;
+	font-family: Montserrat;
+	font-weight: bold;
+	line-height: 370%;
+	font-size: 40px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -34,14 +45,17 @@ ul {
 li a {
 	float: right;
     display: block;
-    color: white;
+    color: black;
+	margin-left:3%;
+	transition: 0.3s;
     text-align: center;
     padding: 14px 16px;
+	border-radius: 9px;
     text-decoration: none;
 }
 
 li a:hover {
-    background: gray;
+    background: lightgray;
 }
 
 .row {	
@@ -54,20 +68,67 @@ li a:hover {
 }
 
 .resume{
-	background:black;
-	border-style:solid;
-	border-color:white;
+	border-bottom-style:solid; 
+	border-bottom-color: black; 
+	border-bottom-width: 5px;
 	text-align:right;
-	border-radius: 9px;
-	padding-left: 12px;
-	padding-right: 12px;
+	padding-left:5px;
+	padding-right:5px;
 	font-size: 55px;
 	text-decoration: none;
-	color: white;
+	transition: 0.3s;
+	color: black;
 }
 
 .resume:hover{
-	border-style:none;
+	border-bottom-style:none; 
+	background:lightgray;
+	border-radius:9px;
+}
+
+.tab {
+    overflow: hidden;
+    color: black;
+	font-family: Helvetica;
+}
+
+.tab button {
+    background-color: transparent;
+	color: black;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 25px;
+    margin-left: 10%;
+}
+
+.tab button:hover {
 	background:gray;
-	color: white;
+	border-style:solid;
+	border-color:#272727;
+    background-color: gray;
+	border-radius: 9px;
+}
+
+.tab button.active {
+    background-color: lightgray;
+	border-radius: 9px;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.propic{
+	border-radius: 9px;
+	box-shadow: 0 0 3px 3px #73737347;
+	width: 70%;
+}
+h1{
+	margin: 0px;
 }
