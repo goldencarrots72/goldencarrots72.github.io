@@ -28,7 +28,7 @@
 img{
 	border-radius: 10px;
 	box-shadow: 0 0 3px 3px #73737347;
-	width: 60%;
+	width: 65%;
 }
 
 h1{
@@ -38,7 +38,8 @@ h1{
 .row {	
     display: flex;
 	align-items: center;
-	max-width: 65%;
+	max-width: 60%;
+	max-height: 75%;
 	min-width: 400px;
 	opacity: 1;
 	transition: 1.5s opacity;
@@ -61,7 +62,7 @@ h1{
 	border-bottom-color: black; 
 	border-bottom-width: 3px;
 	padding-bottom: 1%;
-	margin-top: 20%;
+	margin-top: 15%;
 }
 
 ul {
