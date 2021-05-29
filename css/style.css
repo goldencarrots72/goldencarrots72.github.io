@@ -1,5 +1,6 @@
-.body{
-	background-image: url(../img/Fluffy-Clouds-Background.jpg);
+.content{
+	cursor: url(../img/cursor.png), auto;
+	background-image: url(../img/Fluffy-Clouds-Background2.jpg);
 	background-size: 100vw 100vh;
 	font-family: Ubuntu, sans-serif;
 	font-size: 1vw;
@@ -7,10 +8,11 @@
 	margin: auto;
 	display: flex;
 	justify-content: center;
+	overflow: hidden;
 }
 @media only screen and (max-width: 850px) {
-	.body{
-		background-image: url(../img/Fluffy-Clouds-Background-Copy.jpg);
+	.content{
+		background-image: url(../img/Fluffy-Clouds-Background-Copy2.jpg);
 	}
 }
 
